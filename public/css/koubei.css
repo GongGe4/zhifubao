@@ -1,0 +1,140 @@
+.secondheader {
+  width: 100%;
+  background-color: #1B82D1;
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.secondheader a {
+  display: block;
+  width: 10%;
+  height: 25px;
+}
+.secondheader a img {
+  width: 100%;
+  height: 100%;
+}
+.secondheader .search {
+  width: 70%;
+  height: 19px;
+  background-color: #1873B9;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.secondheader .search a {
+  display: block;
+  width: 10%;
+  height: 100%;
+}
+.secondheader .search a img {
+  width: 70%;
+  height: 100%;
+}
+.secondheader .search input {
+  width: 75%;
+  height: 15px;
+}
+.second {
+  height: 140px;
+}
+.second ul li {
+  height: 55px;
+}
+.youhui_list {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0;
+}
+.youhui_list div {
+  width: 49.8%;
+}
+.youhui_list div h2 {
+  width: 100%;
+  height: 20%;
+}
+.youhui_list div a {
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+.youhui_list span {
+  display: block;
+  background-color: black;
+  width: 1px;
+  height: 100%;
+}
+.youhui_list img {
+  width: 100%;
+  height: 100%;
+}
+.repingbang {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 100%;
+  background-color: white;
+}
+.repingbang h2 {
+  width: 100%;
+  height: 20%;
+}
+.repingbang .top_list {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.repingbang .top_list a {
+  display: block;
+  width: 33.33%;
+}
+.repingbang img {
+  width: 100%;
+  height: 100%;
+}
+.weinidingzhi {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.weinidingzhi img {
+  width: 100%;
+  height: 100%;
+}
+.weinidingzhi h2 {
+  width: 100%;
+  height: 20%;
+}
+.weinidingzhi .dingzhi_list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.weinidingzhi .dingzhi_list a {
+  width: 25%;
+}
+.weinidingzhi .dingzhi_list .see_more {
+  width: 15%;
+}
+.weinidingzhi .wanda {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.weinidingzhi .wanda a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

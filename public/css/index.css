@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #E6E6E6;
+  width: 100%;
+  position: relative;
+}
+li {
+  list-style: none;
+}
+.header {
+  width: 100%;
+  background-color: #1B82D1;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header a {
+  display: block;
+  width: 7%;
+  height: 19px;
+}
+.header a img {
+  width: 100%;
+  height: 100%;
+}
+.header .more {
+  margin-right: 1%;
+}
+.header .search {
+  width: 70%;
+  height: 19px;
+  background-color: #1873B9;
+  padding: 1% 0;
+  padding-left: 2%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .search input {
+  background-color: #21A2EA;
+  border: none;
+}
+.header .search a {
+  display: block;
+  width: 10%;
+  height: 100%;
+}
+.header .search a img {
+  width: 70%;
+  height: 100%;
+}
+.header .search input {
+  width: 75%;
+  height: 15px;
+}
+.saoma {
+  background-color: #1B82D1;
+  padding: 8px 0 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.saoma a {
+  width: 10%;
+  height: 60px;
+}
+.saoma a img {
+  width: 100%;
+  height: 100%;
+}
+.saoma2 {
+  width: 100%;
+  background-color: #1B82D1;
+  position: fixed;
+  top: -100px;
+  left: 0;
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.saoma2 .box_saoma {
+  display: flex;
+  align-items: center;
+}
+.saoma2 .box_saoma a {
+  width: 5%;
+  height: 30px;
+  margin-left: 5%;
+}
+.saoma2 .box_saoma a img {
+  width: 100%;
+  height: 100%;
+}
+.saoma2 .box_saoma:nth-child(2) a {
+  width: 30%;
+}
+.container {
+  width: 100%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-around;
+}
+.container ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container ul li {
+  width: 16%;
+  height: 50px;
+}
+.container ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.container ul li a img {
+  width: 100%;
+  height: 100%;
+}
+.info {
+  width: 100%;
+  height: 20%;
+  margin: 10px 0;
+  background-color: white;
+}
+.info a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.info a img {
+  width: 100%;
+  height: 100%;
+}
+.lunbo {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+}
+.lunbo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lunbo a img {
+  width: 100%;
+  height: 100%;
+}
+.list {
+  width: 100%;
+  background-color: white;
+}
+.list h1 {
+  width: 100%;
+  height: 30px;
+}
+.list h1 img {
+  width: 100%;
+  height: 100%;
+}
+.list .list_box {
+  display: flex;
+  flex-direction: row;
+}
+.list .list_box a {
+  display: block;
+  width: 50%;
+  height: 60px;
+}
+.list .list_box a img {
+  width: 100%;
+  height: 100%;
+}
+.taoqianggou {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #21A2EA;
+}
+.taoqianggou a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.taoqianggou a img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.footer a {
+  display: block;
+  width: 10%;
+}
+.footer a img {
+  width: 100%;
+  height: 100%;
+}
+.dixian {
+  height: 100%;
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 85px;
+  text-align: center;
+  color: #A4A7A9;
+}
+.blank {
+  width: 100%;
+  height: 83px;
+}
